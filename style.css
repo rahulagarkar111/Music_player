@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+body{
+    background: antiquewhite;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'vanela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 90pc;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+.songitemcontainer{
+    width: 40pc;
+}
+
+nav ul li{
+    padding:0 12px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom{
+    position: sticky;
+    height:100px;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons i{
+    padding: 15px;
+    cursor: pointer;
+}
+
+#myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+   
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 28px;
+}
+
+.songItem img{
+    padding:0 15px;
+    width: 28px;
+    height: 34px;
+    margin: 0 23 px;
+
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'vanela Round', sans-serif;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition:opacity 0.5s ease-in ;
+   width: 60px;
+   height: 30px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
